@@ -16,7 +16,7 @@ const selectingDrivers = [
 ];
 
 
-const createFareMultiplier = function (num1) {
+function createFareMultiplier function (num1) {
   return function (num2) {
     return num1*num2;
   };
