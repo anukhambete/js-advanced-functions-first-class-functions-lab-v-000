@@ -20,7 +20,7 @@ function createFareMultiplier (num) {
 }
 
 const createFareMultiplier = function (num1) {
-  return function (num) {
-    return num % divisor === 0;
+  return function (num2) {
+    return num1*num2;
   };
 };
