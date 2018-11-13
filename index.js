@@ -23,7 +23,7 @@ function createFareMultiplier (num1) {
 };
 
 function fareDoubler (num1) {
-  return function (num2) {
-    return num1*num2;
-  };
+
+    return num1*2;
+
 };
