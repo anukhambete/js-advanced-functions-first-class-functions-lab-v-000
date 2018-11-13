@@ -19,7 +19,7 @@ function createFareMultiplier (num) {
 
 }
 
-const createFareMultiplier = function (divisor) {
+const createFareMultiplier = function (num1) {
   return function (num) {
     return num % divisor === 0;
   };
