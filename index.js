@@ -18,3 +18,9 @@ const selectingDrivers = [
 function createFareMultiplier (num) {
 
 }
+
+const createFareMultiplier = function (divisor) {
+  return function (num) {
+    return num % divisor === 0;
+  };
+};
