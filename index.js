@@ -31,5 +31,5 @@ function fareTripler (num1) {
 };
 
 function fetchSpecifiedDrivers(arrayOfDrivers, func) {
-
+  func
 }
