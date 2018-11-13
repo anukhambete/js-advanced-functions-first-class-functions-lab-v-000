@@ -27,5 +27,9 @@ function fareDoubler (num1) {
 };
 
 function fareTripler (num1) {
-    return num1*2;
+    return num1*3;
 };
+
+function fetchSpecifiedDrivers(arrayOfDrivers, function) {
+  
+}
